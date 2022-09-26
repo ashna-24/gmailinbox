@@ -34,7 +34,6 @@
 
 .header_middle{
     display: flex;
-   /* flex: 0.9;*/
     align-items: center;
     background-color:rgb(216, 212, 212);
     padding: 5px;
@@ -88,8 +87,7 @@
     cursor: pointer;
     align-items: center;
     outline: none;
-    border: 2px;
-    border-color: 2px rgb(128, 127, 127);
+    border: 2px solid rgb(128, 127, 127);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 }
 
@@ -107,8 +105,6 @@
 .sidebarOption{
     display: flex;
     align-items: center;
-    /*height: 40px;*/
-    padding:0 10px;
     padding-right: 50px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -228,7 +224,7 @@ body{
 .emailList_settingsRight p{
     color: rgb(158, 152, 152);
     font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    font-size: 13;
+    font-size: 13px;
     cursor: pointer;
     border: 1px;
     flex: 1;
@@ -270,7 +266,7 @@ body{
 .emailList_sections{
     position: sticky;
     top: 0;
-    width: 200px white;
+    width: 200px;
     display: flex;
     background-color: white;
     border-bottom: 1px solid whitesmoke;
@@ -327,7 +323,6 @@ body{
 
 .emailList_message{
     display: flex;
-    /*flex: 0.7;*/
     margin-left: 120px;
     align-items:center;
     font-size: medium;
@@ -345,7 +340,6 @@ body{
 .emailRow_title{
     font-size:medium;
     font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-   /* flex: 0.3;*/
 }
 
 .emailRow_time{
