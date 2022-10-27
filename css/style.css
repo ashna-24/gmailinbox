@@ -221,7 +221,6 @@ body{
 
 .emailList_sections{
     position: sticky;
-    display: flex;
     background-color: white;
     border-bottom: 1px solid whitesmoke;
     z-index: 999;
