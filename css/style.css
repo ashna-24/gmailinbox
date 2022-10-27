@@ -33,7 +33,6 @@
 }
 
 .header_middle{
-    display: flex;
     background-color:rgb(216, 212, 212);
     width: 609px;
     margin-right: 280px;
@@ -42,7 +41,6 @@
 
 .header_middle img{
     padding: 8px;
-    cursor: pointer;
 }
 
 .header_middle input{
@@ -55,7 +53,6 @@
 }
 
 .header_right{
-    display: flex;
     padding-right: 5px;
 }
 
@@ -77,29 +74,19 @@
     font-size: 13px;
     border-radius: 13px;
     background-color: white;
-    display: flex;
-    cursor: pointer;
     border: 1px solid rgb(128, 127, 127);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 }
 
-.sidebar_compose p{
-    display: flex;
-    margin-left: 15px;
-    align-items: center;
-}
 .sidebar_compose img{
-    display: flex;
     margin-right: 5px;
     align-items: center;
 }
 
 .sidebarOption{
-    display: flex;
     align-items: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    cursor: pointer;
     color: rgb(80, 77,77);
 }
 
@@ -134,7 +121,6 @@
 }
 
 .sidebar_footer{
-    display: flex;
     justify-content: center;
 }
 
@@ -150,10 +136,6 @@
     padding: 15px;
     margin-left: 88px;
     cursor: pointer;
-}
-
-.main_body{
-    display: flex;
 }
 
 body{
@@ -173,12 +155,10 @@ body{
     border-radius: 5px;
     width:1068px;
     height: 525px;
-    cursor: pointer;
 }
 
 .emailList_settings{
     position: sticky;
-    display: flex;
     justify-content: space-between;  
     background-color: white;
     border-top-left-radius: 20px;
@@ -188,7 +168,6 @@ body{
 }
 
 .emailList_settingsLeft{
-    display: flex;
     align-items: center;
 }
 
@@ -199,7 +178,6 @@ body{
 }
 
 .emailList_settingsRight{
-    display: flex;
     align-items: center;
 }
 
@@ -227,13 +205,11 @@ body{
 }
 
 .section{
-    display: flex;
     align-items: center;
     background-color: white;
     border-bottom: 1px solid whitesmoke;
     padding: 10px;
     min-width: 190px;
-    cursor: pointer;
     color: gray;
 }
 
