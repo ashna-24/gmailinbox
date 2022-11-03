@@ -262,7 +262,7 @@ body{
 .emailRow{
     display: flex;
     align-items: center;
-    padding:10px;
+    padding:5px;
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
     z-index: 999;
